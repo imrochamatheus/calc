@@ -12,6 +12,6 @@ form.addEventListener("submit", (e) => {
   const fixed = +formData.fixed || 1;
 
   result.textContent = ((variable / fixed) * variable_2)
-    .toFixed(3)
+    .toFixed(2)
     .replace(".", ",");
 });
